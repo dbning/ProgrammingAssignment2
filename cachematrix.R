@@ -3,6 +3,9 @@
 
 ## Write a short comment describing this function
 
+
+# this function return a list of function: set ,get, setsolve, getsolve 
+
 makeCacheMatrix <- function(x = matrix()) {
       s <- NULL
       
@@ -23,6 +26,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+
+# if x is not null, just return x, else inverse x  
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
